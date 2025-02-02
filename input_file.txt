@@ -1,0 +1,17 @@
+loop {
+    int _counter = 0;
+    agar (_counter < 10) {
+        _counter = _counter + 1;
+    } magar (_counter >= 10) {
+        return;
+    }
+}
+
+float value = 3.1415E+02;
+
+!important_function();
+
+bool condition = (value != 0.0) && (_counter == 10) || (_counter > 5);
+
+<< Testing Lexical Analyzer >>
+<< Waleed, Hamza, Fasih, Kashif, Abdullah! >>
